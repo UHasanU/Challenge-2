@@ -1,3 +1,4 @@
+from random import randint
 def main():
     number = RandomNumber()
     guess = input("Enter a number")
@@ -6,7 +7,8 @@ def main():
 
 
 def RandomRandom():
-    return None
+    randomnum = randint(1,5)
+    return randomnum
 
 def CheckUserChoice():
     return None
