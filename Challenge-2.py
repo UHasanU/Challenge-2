@@ -12,7 +12,7 @@ def CheckUserChoice(number, guess):
         return true
     elif -1 <= number-guess <= 1:
         return "Very close"
-    elif -2 <= number-guess <= 2
+    elif -2 <= number-guess <= 2:
         return "Close"
     else:
         return "Wrong"
